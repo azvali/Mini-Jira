@@ -7,13 +7,11 @@ import Login from './screens/Login.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-
-    <Login/>
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login/>}/>
         <Route path="/home" element={<App/>}/>
       </Routes>
-    </BrowserRouter> */}
+    </BrowserRouter>
   </StrictMode>,
 )
